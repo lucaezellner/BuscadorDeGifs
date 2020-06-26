@@ -1,16 +1,27 @@
-# buscadorgifs
+# Buscador de gifs
 
-Buscador de gifs para a aula de Desenvolvimento de Aplicativos Híbridos.
+App para pesquisar e compartilhar gifs em diversar plataformas, desenvolvido para a aula de Desenvolvimento de Aplicativos Híbridos com Flutter.
 
-## Getting Started
+## Tela inicial
 
-This project is a starting point for a Flutter application.
+A tela inicial do aplicativo possui uma lista com alguns gifs que estão na moda atualmente e uma barra de pesquisa que permite que o usuário insira palavras-chave para a busca.
 
-A few resources to get you started if this is your first Flutter project:
+![Alt text](screenshots/1.jpg?raw=true)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Tela de busca
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Após inserir alguma palavra-chave para a busca dos gifs, uma nova tela será exibida, com o resultado dessa busca. Ao final da tela existe um botão que permite o usuário carregar novos gifs relacionados à mesma busca.
+
+![Alt text](screenshots/2.jpg?raw=true)
+
+## Escolhendo seu gif
+
+Após encontrar um gif que seja do seu agrado, basta clicar sobre ele e uma nova tela sera exibida, na qual é possível visualizá-lo de forma completa, juntamente com seu título.
+
+![Alt text](screenshots/3.jpg?raw=true)
+
+## Compartilhando
+
+No topo da tela de informações do gif, existe um ícone que permite o usuário compartilhar os gifs. Basta clicar sobre ele e uma série de aplicativos compatíveis com o compartilhamento será exibida.
+
+![Alt text](screenshots/4.jpg?raw=true)
